@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:tint="@color/black">
+
+    <Button
+        android:id="@+id/killck_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="killck here"
+        android:onClick="startAct2"/>
+
+    <ImageButton
+        android:id="@+id/testid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="A tiny Android icon"
+        android:src="@drawable/baseline_android_24"
+        android:tint="@color/black" />
+
+    <Button
+        android:id="@+id/killck_here2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_android_24"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/black"
+        android:text="i mean klick here {typo sry}"
+        android:onClick="startAct2"/>
+
+</LinearLayout>
